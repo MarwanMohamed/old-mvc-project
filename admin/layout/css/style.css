@@ -1,0 +1,258 @@
+/* Start Main Rulez */
+
+body {
+  min-height:100vh;
+	background: linear-gradient(#F9B294, #F9B294, #F0707D, #BF6D84, #6F5B80, #305B7E, #305B7E, #305B7E);
+	font-size: 16px
+}
+.asterisk {
+	font-size: 30px;
+	position: absolute;
+	top: 7px;
+	right: 30px;
+	color: #D20707;
+}
+
+/* End Main Rulez */
+
+
+/* Start Navbar here */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0
+}
+.navbar-brand {
+	font-size: 1em
+}
+
+.nav > li > a,
+.navbar-brand {padding: 15px 12px}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+	background-color: #3498db;
+}
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+}
+.dropdown-menu > li > a {color: #FFF; padding: 10px 15px}
+
+.form_control {
+	position: relative;
+}
+/* End Navbar here */
+
+/* Start Dashboard Page */
+.home-stats .stat {
+	padding: 20px;
+	font-size: 15px;
+	color: #FFF;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+}
+.home-stats i {
+	font-size: 75px;
+	position: absolute;
+	top: 35px;
+	left: 30px
+}
+.home-stats .info {
+	float: right;
+}
+
+.home-stats .stat a {color: #FFF}
+.home-stats .stat a:hover {text-decoration: none;}
+.home-stats .stat span {
+	display: block;
+	font-size: 60px
+}
+.home-stats .members {
+	background-color: #F8B195
+}
+
+.home-stats .pending {
+	background-color: #C06C84
+}
+
+.home-stats .items {
+	background-color: #F67280
+}
+
+.home-stats .comments {
+	background-color: #6C5B7B
+}
+
+.latest {
+	margin-top: 30px
+}
+.latest .toggle-info {color: #999; cursor: pointer;}
+.latest .toggle-info:hover {color: #444;}
+.latest-users {margin-bottom: 0; background-color: #fff}
+.latest-users li {padding: 8px; overflow: hidden; }
+.latest-users li:nth-child(odd) {
+	background-color: #f3f3f3
+}
+.latest-users .btn-success {padding: 2px 8px}
+
+.latest .comment-box {
+	margin: 5px 0 10px
+}
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment {
+	float: left;
+}
+
+.latest .comment-box .member-name {
+	margin-right: 20px;
+	width: 80px;
+	text-align: center;
+	position: relative;
+	top:10px;
+}
+
+.latest .comment-box .member-comment {
+	width: calc(100% - 100px);
+	background-color: #EFEFEF;
+	padding: 10px;
+	position: relative;
+}
+
+.latest .comment-box .member-comment:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -29px;
+	top: 5px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-color: transparent #EFEFEF transparent transparent;
+	border-width: 15px
+}
+/* End Dashboard Page */
+
+
+/* Start Member Page */
+
+h1 {
+	font-size: 55px;
+	margin: 40px 0 ;
+	font-weight: bold;
+	color: #666
+}
+.show-pass {
+	position: absolute;
+	top: 14px;
+	right: -20px;
+	cursor: pointer
+}
+.main-table td{
+	background-color: #FFF;
+	vertical-align: middle !important ;
+}
+
+.main-table tr:first-child td{
+	background-color: #355C7D;
+	color: #FFF
+}
+.main-table .btn {
+	padding: 3px 10px
+}
+.active {margin-left: 4px}
+/* End Member Page */
+
+/* Start Catigory Page */
+
+.catigories .panel-heading {color: #959595; font-weight: bold;}
+.catigories .panel-heading i {
+	position: relative;
+	top: 2px;
+}
+.catigories .panel-body {padding: 0}
+.catigories .cat {padding: 15px; position: relative; overflow: hidden;}
+
+.catigories .cat .hidden-btn {
+	-webkit-transition: all .5s  ease-in-out;
+	-moz-transition: all .5s  ease-in-out;
+	transition: all .5s  ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -180px
+}
+.catigories .cat:hover .hidden-btn {right: 15px}
+.catigories .cat:hover {background-color: #eee}
+
+.catigories .cat .hidden-btn a { margin-right: 8px }
+
+.catigories .cat h3 {
+	margin: 0;
+	cursor: pointer;
+	color: #6a6a6a;
+	font-weight: bold;
+}
+.catigories .cat .full-view p {
+	margin: 10px 0;
+	color: #707070 ;
+ }
+
+.catigories .option a {
+	text-decoration: none;
+	color: #888;
+}
+.catigories .option span {
+	color: #888;
+	cursor: pointer;
+}
+.catigories .option .active {
+	color: #f00;
+}
+.catigories hr {margin-top: 0; margin-bottom: 0}
+
+.catigories .cat:last-of-type ~ hr {
+	display: none;
+}
+.catigories .cat .visbility {
+	background-color: #d35400;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px
+}
+
+.catigories .cat .comment {
+	background-color: #2c3e50;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px
+}
+
+.catigories .cat .ads {
+	background-color: #c0392b;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px
+}
+
+.panel-default > .panel-heading {
+  background-color:#355C7D;
+}
+.panel-default {
+  border-color: #585b7f
+}
+
+/* End Catigory Page */
+
+/* Start items Page */
+
+.approve {margin-left: 4px}
+
+/* End items Page */
